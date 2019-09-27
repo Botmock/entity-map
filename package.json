@@ -1,0 +1,49 @@
+{
+  "name": "@botmock-api/entity-map",
+  "version": "0.1.0",
+  "description": "map entity name to its platform-specific value",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [
+    "botmock",
+    "typescript",
+    "entity"
+  ],
+  "jest": {
+    "collectCoverage": true,
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/*.test.ts"
+    ],
+    "preset": "ts-jest",
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json",
+        "diagnostics": false
+      }
+    }
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 80
+  },
+  "bugs": "https://github.com/Botmock/entity-map/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Botmock/entity-map.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.8",
+    "jest": "24.9.0",
+    "ts-jest": "24.1.0",
+    "ts-node": "8.4.1",
+    "typescript": "3.6.3"
+  }
+}
