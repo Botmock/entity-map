@@ -1,6 +1,6 @@
 {
   "name": "@botmock-api/entity-map",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "map entity name to its platform-specific value",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
