@@ -13,8 +13,8 @@ npm i @botmock-api/entity-map
 ```ts
 import { default as findPlatformEntityEquivalent } from "@botmock-api/entity-map";
 
-findPlatformEntityEquivalent("Date", { platform: "dialogflow" });
+findPlatformEntityEquivalent("date", { platform: "dialogflow" });
 // @sys.date
-findPlatformEntityEquivalent("Date", { platform: "amazon" });
+findPlatformEntityEquivalent("date", { platform: "amazon" });
 // AMAZON.DATE
 ```
