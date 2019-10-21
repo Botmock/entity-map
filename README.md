@@ -1,6 +1,6 @@
 # @botmock-api/entity-map 
 
-> map entity name to its platform-specific value
+> map a custom entity name to its platform-specific value
 
 ### Installation
 
